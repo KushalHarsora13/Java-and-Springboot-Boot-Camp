@@ -15,6 +15,7 @@ public class Initial {
         // Read second integer input
         b = input.nextInt();
 
+
         // Check if both numbers are equal
         if (a == b) {
             System.out.println("Duplicate numbers");
