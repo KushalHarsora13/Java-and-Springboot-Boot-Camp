@@ -1,7 +1,7 @@
-# Java Day 4
+# Java Day 5
 
-In today's session we covered what are beans, IoC container (Inversion of Control), Application Context. Then we created a basic GET request that returns a string ("Hello World") when the route is hit. Finally, we saw about Dependency injection and 2 popular ways to achieve dependency injection.
+In today's session we covered Spring's MVC Architecture, covered the path variable and query parameters for a GET request and how it is handled in Spring boot. We also looked into What a DispatcherServlet is.
 
-To refer the notes you can visit this link - https://app.notion.com/p/Spring-Boot-Introduction-3756b1fccd3a807bbaefdaff10c60998?source=copy_link
+To refer the notes you can visit this link - https://app.notion.com/p/Getting-started-with-Spring-MVC-3766b1fccd3a80c181aacd15c7bdcc09?source=copy_link
 
-For the assignment part - Try creating different mappings for different function that return string, integer, boolean and character values on different routes.
+For the assignment part - Try running the calculator application created in previous assignment as an GET API which takes data as path variables.
