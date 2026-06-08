@@ -1,7 +1,7 @@
-# Java Day 5
+# Java Day 6
 
-In today's session we covered Spring's MVC Architecture, covered the path variable and query parameters for a GET request and how it is handled in Spring boot. We also looked into What a DispatcherServlet is.
+In today's session we covered Spring's Three Layered Architecture. Then we looked into how data flows from Controller to Service Layers via DTOs (Data Transfer Objects). Then we looked into Postman, a tool used to interact with the backend APIs.
 
-To refer the notes you can visit this link - https://app.notion.com/p/Getting-started-with-Spring-MVC-3766b1fccd3a80c181aacd15c7bdcc09?source=copy_link
+To refer the notes you can visit this link - https://app.notion.com/p/Working-with-DTOs-and-Spring-Three-Layered-Architecture-3796b1fccd3a800ca604e7b08a62247e?source=copy_link
 
-For the assignment part - Try running the calculator application created in previous assignment as an GET API which takes data as path variables.
+For the assignment part - I'll be providing the Assignment tomorrow as a combined assigment of Day6 and Day7.
