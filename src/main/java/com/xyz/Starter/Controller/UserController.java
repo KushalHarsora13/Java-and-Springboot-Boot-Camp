@@ -6,6 +6,8 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/users") // Base URL for all user-related endpoints
 public class UserController {
@@ -36,9 +38,19 @@ public class UserController {
      * @return ResponseEntity containing the processed UserDTO
      */
     @PostMapping("")
-    public ResponseEntity<UserDTO> getAllUsers(RequestEntity<UserDTO> request) {
+//    public ResponseEntity<UserDTO> getAllUsers(RequestEntity<UserDTO> request) {
+//
+//        // Delegate request processing to the service layer
+//        return userService.getUserDTO(request);
+//    }
+    public ResponseEntity<UserDTO> createUser(RequestEntity<UserDTO> userDTO) {
+        return userService.createUser(userDTO);
+    }
 
-        // Delegate request processing to the service layer
-        return userService.getUserDTO(request);
+
+
+    @GetMapping("")
+    public List<UserDTO> getAllUsers() {
+        return userService.getAllUsers();
     }
 }
