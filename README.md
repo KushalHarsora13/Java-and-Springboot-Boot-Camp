@@ -1,7 +1,7 @@
-# Java Day 7
+# Java Day 8
 
-In today's session we covered the final layer of Spring's Three Layered Architecture. We created POST and GET API using Entity and Repository. We also connect our server with PostgreSQL Database using JPA and PostgreSQL Driver.
+In today's session we covered introduction to microservices. We created PUT and DELELTE API using Entity and Repository. And finally we covered tight coupling and loose coupling
 
-To refer the notes you can visit this link - https://app.notion.com/p/Dealing-with-Databases-37a6b1fccd3a80cbb838ca8606abf504?source=copy_link
+To refer the notes you can visit this link - https://app.notion.com/p/Dealing-with-Databases-Continuation-37b6b1fccd3a806e98f6e91b64c904fa?source=copy_link
 
-For the assignment part - Create the Student API while implementing all 3 layers of Spring MVC and transfer data via DTOs.
+For the assignment part - Complete the Student API by implementing PUT and DELETE APIs

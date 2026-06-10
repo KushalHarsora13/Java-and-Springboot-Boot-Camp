@@ -38,16 +38,20 @@ public class UserController {
      * @return ResponseEntity containing the processed UserDTO
      */
     @PostMapping("")
-//    public ResponseEntity<UserDTO> getAllUsers(RequestEntity<UserDTO> request) {
-//
-//        // Delegate request processing to the service layer
-//        return userService.getUserDTO(request);
-//    }
-    public ResponseEntity<UserDTO> createUser(RequestEntity<UserDTO> userDTO) {
+    public ResponseEntity<UserDTO> createUser(@RequestBody UserDTO userDTO) {
         return userService.createUser(userDTO);
     }
 
 
+    @PutMapping("{id}")
+    public ResponseEntity<UserDTO> updateUser(@PathVariable Long id, @RequestBody UserDTO userDTO) {
+        return userService.updateUser(id, userDTO);
+    }
+
+    @DeleteMapping("{id}")
+    public ResponseEntity<String> deleteUser(@PathVariable Long id) {
+        return userService.deleteUser(id);
+    }
 
     @GetMapping("")
     public List<UserDTO> getAllUsers() {
