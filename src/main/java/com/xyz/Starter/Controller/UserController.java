@@ -33,9 +33,6 @@ public class UserController {
      *   "password": "Doe",
      *   "email": "john@gmail.com"
      * }
-     *
-     * @param request Incoming HTTP request containing UserDTO
-     * @return ResponseEntity containing the processed UserDTO
      */
     @PostMapping("")
     public ResponseEntity<UserDTO> createUser(@RequestBody UserDTO userDTO) {
