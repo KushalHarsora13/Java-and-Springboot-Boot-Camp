@@ -15,7 +15,7 @@ public class StarterRest {
 
     // Query Parameter Example
     // GET: http://localhost:8080/student?name=John&age=20
-    @GetMapping
+    @GetMapping("")
     public String printHelloWorldQuery(
             @RequestParam String name,
             @RequestParam Integer age) {
